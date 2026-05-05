@@ -4,7 +4,7 @@ This checklist helps you review a proxy or VPN setup before using it for browsin
 
 Start with Ping123:
 
-https://ping123.app/?utm_source=github&utm_medium=docs&utm_campaign=proxy_vpn_leak_test_checklist
+https://ping123.app/what-is-my-ip/?utm_source=github&utm_medium=docs&utm_campaign=ping123-what-is-my-ip-proxy-checker&utm_content=proxy_vpn_checklist_intro
 
 ## 1. Confirm the Public IP
 
@@ -23,7 +23,7 @@ If the public IP did not change, the proxy or VPN may not be active for your bro
 
 Use the proxy checker workflow:
 
-https://ping123.app/proxy-check/?utm_source=github&utm_medium=docs&utm_campaign=proxy_vpn_leak_test_checklist
+https://ping123.app/proxy-check/?utm_source=github&utm_medium=docs&utm_campaign=ping123-what-is-my-ip-proxy-checker&utm_content=proxy_vpn_checklist_proxy
 
 Check:
 
@@ -38,7 +38,7 @@ Not every proxy or VPN flag is bad. The important question is whether the classi
 
 Use the DNS leak test:
 
-https://ping123.app/dns-leak-test/?utm_source=github&utm_medium=docs&utm_campaign=proxy_vpn_leak_test_checklist
+https://ping123.app/en/dns-leak-test/?utm_source=github&utm_medium=docs&utm_campaign=ping123-what-is-my-ip-proxy-checker&utm_content=proxy_vpn_checklist_dns
 
 Check:
 
@@ -53,7 +53,7 @@ DNS behavior should make sense next to the visible public IP address.
 
 Use the WebRTC leak test:
 
-https://ping123.app/webrtc-leak-test/?utm_source=github&utm_medium=docs&utm_campaign=proxy_vpn_leak_test_checklist
+https://ping123.app/en/webrtc-leak-test/?utm_source=github&utm_medium=docs&utm_campaign=ping123-what-is-my-ip-proxy-checker&utm_content=proxy_vpn_checklist_webrtc
 
 Check:
 
@@ -107,8 +107,8 @@ Small changes can alter the final browser and network profile.
 
 ## Related Ping123 Tools
 
-- What is my IP: https://ping123.app/?utm_source=github&utm_medium=docs&utm_campaign=proxy_vpn_leak_test_checklist
-- Proxy checker: https://ping123.app/proxy-check/?utm_source=github&utm_medium=docs&utm_campaign=proxy_vpn_leak_test_checklist
-- VPN leak test: https://ping123.app/vpn-leak-test-checklist/?utm_source=github&utm_medium=docs&utm_campaign=proxy_vpn_leak_test_checklist
-- DNS leak test: https://ping123.app/dns-leak-test/?utm_source=github&utm_medium=docs&utm_campaign=proxy_vpn_leak_test_checklist
-- WebRTC leak test: https://ping123.app/webrtc-leak-test/?utm_source=github&utm_medium=docs&utm_campaign=proxy_vpn_leak_test_checklist
+- What is my IP: https://ping123.app/what-is-my-ip/?utm_source=github&utm_medium=docs&utm_campaign=ping123-what-is-my-ip-proxy-checker&utm_content=proxy_vpn_checklist_related
+- Proxy checker: https://ping123.app/proxy-check/?utm_source=github&utm_medium=docs&utm_campaign=ping123-what-is-my-ip-proxy-checker&utm_content=proxy_vpn_checklist_related
+- VPN leak test: https://ping123.app/vpn-leak-test-checklist/?utm_source=github&utm_medium=docs&utm_campaign=ping123-what-is-my-ip-proxy-checker&utm_content=proxy_vpn_checklist_related
+- DNS leak test: https://ping123.app/en/dns-leak-test/?utm_source=github&utm_medium=docs&utm_campaign=ping123-what-is-my-ip-proxy-checker&utm_content=proxy_vpn_checklist_related
+- WebRTC leak test: https://ping123.app/en/webrtc-leak-test/?utm_source=github&utm_medium=docs&utm_campaign=ping123-what-is-my-ip-proxy-checker&utm_content=proxy_vpn_checklist_related

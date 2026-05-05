@@ -4,7 +4,7 @@ IP risk is a practical way to summarize how a network address may appear to webs
 
 Check your current IP risk context:
 
-https://ping123.app/ip-risk/?utm_source=github&utm_medium=docs&utm_campaign=ip_risk_signals
+https://ping123.app/ip-risk/?utm_source=github&utm_medium=docs&utm_campaign=ping123-what-is-my-ip-proxy-checker&utm_content=ip_risk_intro
 
 ## What Is an IP Risk Score?
 
@@ -68,7 +68,7 @@ Recheck IP risk when:
 
 ## Related Ping123 Tools
 
-- IP risk score: https://ping123.app/ip-risk/?utm_source=github&utm_medium=docs&utm_campaign=ip_risk_signals
-- Proxy checker: https://ping123.app/proxy-check/?utm_source=github&utm_medium=docs&utm_campaign=ip_risk_signals
-- DNS leak test: https://ping123.app/dns-leak-test/?utm_source=github&utm_medium=docs&utm_campaign=ip_risk_signals
-- WebRTC leak test: https://ping123.app/webrtc-leak-test/?utm_source=github&utm_medium=docs&utm_campaign=ip_risk_signals
+- IP risk score: https://ping123.app/ip-risk/?utm_source=github&utm_medium=docs&utm_campaign=ping123-what-is-my-ip-proxy-checker&utm_content=ip_risk_related
+- Proxy checker: https://ping123.app/proxy-check/?utm_source=github&utm_medium=docs&utm_campaign=ping123-what-is-my-ip-proxy-checker&utm_content=ip_risk_related
+- DNS leak test: https://ping123.app/en/dns-leak-test/?utm_source=github&utm_medium=docs&utm_campaign=ping123-what-is-my-ip-proxy-checker&utm_content=ip_risk_related
+- WebRTC leak test: https://ping123.app/en/webrtc-leak-test/?utm_source=github&utm_medium=docs&utm_campaign=ping123-what-is-my-ip-proxy-checker&utm_content=ip_risk_related

@@ -1,193 +1,189 @@
-# Ping123 - What Is My IP, Proxy Checker, VPN Leak Test
+# What Is My IP Address? Proxy Checker, DNS Leak Test, WebRTC Leak Test
 
-Ping123 is a transparent IP checker and browser privacy diagnostic tool for checking your public IP address, proxy status, VPN signals, DNS leak behavior, WebRTC leak exposure, browser fingerprint basics, and IP risk context.
+[![Website](https://img.shields.io/badge/Try%20Ping123-Free%20IP%20Checker-2563eb?style=for-the-badge)](https://ping123.app/what-is-my-ip/?utm_source=github&utm_medium=repo&utm_campaign=ping123-what-is-my-ip-proxy-checker&utm_content=hero_badge)
+[![Proxy Checker](https://img.shields.io/badge/Proxy%20Checker-Live-16a34a?style=for-the-badge)](https://ping123.app/proxy-check/?utm_source=github&utm_medium=repo&utm_campaign=ping123-what-is-my-ip-proxy-checker&utm_content=hero_badge)
+[![DNS WebRTC VPN Leak Test](https://img.shields.io/badge/DNS%20%2F%20WebRTC%20%2F%20VPN-Leak%20Tests-7c3aed?style=for-the-badge)](https://ping123.app/en/dns-leak-test/?utm_source=github&utm_medium=repo&utm_campaign=ping123-what-is-my-ip-proxy-checker&utm_content=hero_badge)
+[![License: MIT](https://img.shields.io/badge/License-MIT-111827?style=for-the-badge)](LICENSE)
 
-Start here:
+Ping123 is a free browser-based IP checker for answering **what is my IP address**, checking whether a **proxy or VPN** route is active, and reviewing **DNS leak**, **WebRTC leak**, **IP risk score**, and browser privacy signals.
 
-https://ping123.app/?utm_source=github&utm_medium=repo&utm_campaign=what_is_my_ip_proxy_checker
+> Fast path: open the live checker at  
+> https://ping123.app/what-is-my-ip/?utm_source=github&utm_medium=repo&utm_campaign=ping123-what-is-my-ip-proxy-checker&utm_content=hero_cta
 
-## Quick Answer: What Is My IP?
+![Ping123 GitHub preview card](assets/ping123-github-preview.svg)
 
-Your public IP address is the network address websites can see when your browser connects to them. A basic "what is my IP" page only shows that address. Ping123 goes further by helping you review whether your IP, DNS, WebRTC, browser, and risk signals tell the same story.
+## Table of Contents
 
-Use Ping123 when you need to:
+- [Start Here](#start-here)
+- [What Ping123 Checks](#what-ping123-checks)
+- [Free IP and Privacy Tools](#free-ip-and-privacy-tools)
+- [Copyable Proxy and VPN Checklist](#copyable-proxy-and-vpn-checklist)
+- [Ping123 vs Basic IP Checker Sites](#ping123-vs-basic-ip-checker-sites)
+- [Use Cases](#use-cases)
+- [Docs](#docs)
+- [FAQ](#faq)
 
-- Check your current public IP address
-- Verify whether a proxy or VPN route is active
-- Run a VPN leak test before using an account or dashboard
-- Check for DNS leak and WebRTC leak exposure
-- Review IP risk, IP reputation, and proxy or VPN indicators
-- Compare your browser environment before and after network changes
+## Start Here
+
+Use this repository as a practical reference page for checking:
+
+- **What is my IP address?**
+- **Is my proxy working?**
+- **Is my VPN leaking DNS or WebRTC signals?**
+- **Does my IP address have risk or reputation signals?**
+- **Do my browser language, time zone, DNS, and WebRTC signals match my visible IP?**
+
+Open the main Ping123 IP checker:
+
+https://ping123.app/what-is-my-ip/?utm_source=github&utm_medium=repo&utm_campaign=ping123-what-is-my-ip-proxy-checker&utm_content=start_here
 
 ## What Ping123 Checks
 
-Ping123 is designed around practical privacy and network diagnostics:
+Ping123 combines network and browser diagnostics in one manual workflow:
 
-- Public IP address
-- IP location and network metadata
-- ASN, ISP, and organization context
-- Proxy checker signals
-- VPN detection signals
-- Datacenter, residential, and suspicious network hints
-- DNS leak test workflow
-- WebRTC leak test workflow
-- Browser user agent and device context
-- Browser language and time zone coherence
-- IP risk score and IP reputation context
+| Signal | Why it matters |
+|---|---|
+| Public IP address | The IP address websites see when your browser connects |
+| IP location | Country and region context for the visible network route |
+| ASN, ISP, organization | Helps identify residential, mobile, business, hosting, or datacenter networks |
+| Proxy checker signals | Indicates whether the route may appear as proxy infrastructure |
+| VPN detection signals | Helps verify whether a VPN exit is active or visible |
+| DNS leak behavior | Reveals whether DNS routing matches the expected proxy or VPN path |
+| WebRTC leak behavior | Checks browser-side network exposure that can differ from the main IP |
+| IP risk score | Summarizes reputation, proxy, VPN, hosting, and abuse-risk context |
+| Browser context | User agent, language, time zone, and other coherence signals |
 
-The goal is not just to show an IP address. The goal is to help you understand whether your full browser and network setup is coherent.
+## Free IP and Privacy Tools
 
-## Main Tools
-
-| Tool | What it helps you verify | Link |
+| Tool | Target keyword | Live page |
 |---|---|---|
-| What Is My IP | Your public IP and visible network profile | https://ping123.app/?utm_source=github&utm_medium=repo&utm_campaign=what_is_my_ip_proxy_checker |
-| Proxy Checker | Whether your route looks like a proxy, VPN, datacenter, or normal network | https://ping123.app/proxy-check/?utm_source=github&utm_medium=repo&utm_campaign=proxy_checker |
-| VPN Leak Test | Whether your VPN setup has visible mismatch or leak signals | https://ping123.app/vpn-leak-test-checklist/?utm_source=github&utm_medium=repo&utm_campaign=vpn_leak_test |
-| DNS Leak Test | Whether DNS behavior may expose the wrong resolver path | https://ping123.app/dns-leak-test/?utm_source=github&utm_medium=repo&utm_campaign=dns_leak_test |
-| WebRTC Leak Test | Whether browser WebRTC behavior exposes unexpected network signals | https://ping123.app/webrtc-leak-test/?utm_source=github&utm_medium=repo&utm_campaign=webrtc_leak_test |
-| IP Risk Score | IP reputation, proxy, VPN, and abuse-risk context | https://ping123.app/ip-risk/?utm_source=github&utm_medium=repo&utm_campaign=ip_risk_score |
+| What Is My IP | `what is my ip`, `my ip address`, `ip checker` | https://ping123.app/what-is-my-ip/?utm_source=github&utm_medium=repo&utm_campaign=ping123-what-is-my-ip-proxy-checker&utm_content=tool_table |
+| Proxy Checker | `proxy checker`, `check proxy`, `is my proxy working` | https://ping123.app/proxy-check/?utm_source=github&utm_medium=repo&utm_campaign=ping123-what-is-my-ip-proxy-checker&utm_content=tool_table |
+| IP Risk Score | `ip risk score`, `ip risk checker`, `ip reputation` | https://ping123.app/ip-risk/?utm_source=github&utm_medium=repo&utm_campaign=ping123-what-is-my-ip-proxy-checker&utm_content=tool_table |
+| DNS Leak Test | `dns leak test`, `vpn dns leak`, `dns leak checker` | https://ping123.app/en/dns-leak-test/?utm_source=github&utm_medium=repo&utm_campaign=ping123-what-is-my-ip-proxy-checker&utm_content=tool_table |
+| WebRTC Leak Test | `webrtc leak test`, `browser webrtc leak`, `webrtc ip leak` | https://ping123.app/en/webrtc-leak-test/?utm_source=github&utm_medium=repo&utm_campaign=ping123-what-is-my-ip-proxy-checker&utm_content=tool_table |
+| VPN Leak Checklist | `vpn leak test`, `vpn ip check`, `vpn detection` | https://ping123.app/vpn-detection/?utm_source=github&utm_medium=repo&utm_campaign=ping123-what-is-my-ip-proxy-checker&utm_content=tool_table |
 
-## Why This Matters
+## Copyable Proxy and VPN Checklist
 
-Many privacy checks fail because users only look at one signal. A VPN may change the visible IP address while DNS, WebRTC, browser language, time zone, or IP reputation still creates a mismatch.
+Use this quick checklist before relying on a proxy, VPN, browser profile, QA session, or network test:
 
-Ping123 is useful because it brings these checks into one manual workflow:
+```text
+Ping123 proxy/VPN check
 
-1. Confirm the visible public IP address.
-2. Compare the IP location, ASN, ISP, and organization.
-3. Check proxy, VPN, datacenter, and risk indicators.
-4. Run DNS and WebRTC leak checks.
-5. Review browser context such as user agent, language, and time zone.
-6. Re-test after changing browsers, VPN exits, proxies, networks, or privacy settings.
+[ ] Public IP changed to the expected route
+[ ] IP country and region match the intended environment
+[ ] ASN, ISP, and organization look expected
+[ ] Proxy/VPN/datacenter/risk labels are understood
+[ ] DNS leak test does not reveal an unexpected resolver path
+[ ] WebRTC leak test does not expose unexpected network information
+[ ] Browser language and time zone match the visible IP context
+[ ] Result was re-tested after browser, VPN, proxy, DNS, or extension changes
+```
 
-## Common Use Cases
+Full checklist:
 
-### Check If a Proxy Is Working
-
-Open Ping123 after connecting to a proxy. Confirm that the displayed IP, ASN, location, and proxy checker signals match what you expected. If the IP changed but DNS or WebRTC still looks inconsistent, your setup may need more review.
-
-Proxy checker:
-
-https://ping123.app/proxy-check/?utm_source=github&utm_medium=repo&utm_campaign=proxy_checker
-
-### Run a VPN Leak Test
-
-A VPN can hide your original public IP, but some environments may still expose inconsistent DNS, WebRTC, time zone, or browser signals. Ping123 helps you inspect these signals manually before you rely on a new VPN route.
-
-VPN leak test:
-
-https://ping123.app/vpn-leak-test-checklist/?utm_source=github&utm_medium=repo&utm_campaign=vpn_leak_test
-
-### Run a DNS Leak Test
-
-A DNS leak can happen when DNS requests are sent outside the expected VPN or proxy route. This can reveal resolver or network information that does not match your visible IP address.
-
-DNS leak test:
-
-https://ping123.app/dns-leak-test/?utm_source=github&utm_medium=repo&utm_campaign=dns_leak_test
-
-### Run a WebRTC Leak Test
-
-WebRTC can expose network-related information in some browser setups. Ping123 provides a simple WebRTC leak test workflow so you can compare browser-side signals against your visible public IP.
-
-WebRTC leak test:
-
-https://ping123.app/webrtc-leak-test/?utm_source=github&utm_medium=repo&utm_campaign=webrtc_leak_test
-
-### Check IP Risk Before a Login or Test Session
-
-Some IP addresses have reputation or abuse-risk signals because of datacenter use, proxy infrastructure, VPN ranges, spam history, or other network-level patterns. Ping123 helps you review these signals before using a sensitive environment.
-
-IP risk score:
-
-https://ping123.app/ip-risk/?utm_source=github&utm_medium=repo&utm_campaign=ip_risk_score
-
-## Signal Checklist
-
-Use this quick checklist when testing an IP, proxy, or VPN route:
-
-- Does the public IP match the route you intended to use?
-- Does the IP country, city, ASN, ISP, and organization make sense?
-- Is the route marked as proxy, VPN, Tor, hosting, datacenter, or risky?
-- Does DNS behavior match the same region or provider expectation?
-- Does WebRTC expose unexpected local or public network information?
-- Do browser language and time zone match the visible network profile?
-- Did the result change after browser, extension, VPN, proxy, or OS updates?
-
-For a longer version, see:
-
-- [Proxy and VPN Leak Test Checklist](docs/proxy-vpn-leak-test-checklist.md)
-- [IP Risk Signals Explained](docs/ip-risk-signals.md)
-- [Browser Privacy Signals](docs/browser-privacy-signals.md)
-- [FAQ](docs/faq.md)
+https://ping123.app/vpn-leak-test-checklist/?utm_source=github&utm_medium=repo&utm_campaign=ping123-what-is-my-ip-proxy-checker&utm_content=checklist
 
 ## Ping123 vs Basic IP Checker Sites
 
 | Feature | Basic IP checker | Ping123 |
 |---|---:|---:|
-| Shows public IP | Yes | Yes |
+| Shows public IP address | Yes | Yes |
 | IP location context | Sometimes | Yes |
-| ASN and ISP context | Sometimes | Yes |
+| ASN, ISP, organization context | Sometimes | Yes |
 | Proxy checker workflow | Rarely | Yes |
-| VPN leak test workflow | Rarely | Yes |
+| VPN detection workflow | Rarely | Yes |
 | DNS leak test workflow | Rarely | Yes |
 | WebRTC leak test workflow | Rarely | Yes |
-| IP risk context | Rarely | Yes |
+| IP risk score context | Rarely | Yes |
 | Browser privacy context | Rarely | Yes |
-| Manual troubleshooting flow | No | Yes |
+| Manual troubleshooting checklist | No | Yes |
 
-## Who Is Ping123 For?
+## Use Cases
 
-Ping123 is useful for:
+### Check What IP Websites See
 
-- Developers testing IP-based features
-- QA engineers checking location-sensitive flows
-- Network administrators debugging routing behavior
-- Privacy-conscious users reviewing browser exposure
-- Proxy and VPN users verifying connection consistency
-- Security and trust teams reviewing IP reputation context
-- Growth and operations teams testing network quality responsibly
+Use Ping123 to confirm your public IP address after switching networks, enabling a VPN, changing a proxy endpoint, or moving between desktop, mobile, Wi-Fi, and mobile data.
+
+### Check If a Proxy Is Working
+
+Connect to your proxy, open Ping123, and compare the visible IP, country, ASN, ISP, DNS, WebRTC, and risk signals with the route you expected.
+
+Proxy checker:
+
+https://ping123.app/proxy-check/?utm_source=github&utm_medium=repo&utm_campaign=ping123-what-is-my-ip-proxy-checker&utm_content=proxy_section
+
+### Run a DNS Leak Test
+
+A DNS leak can happen when DNS requests are routed outside the expected VPN or proxy path. Ping123 helps compare resolver behavior against the visible public IP.
+
+DNS leak test:
+
+https://ping123.app/en/dns-leak-test/?utm_source=github&utm_medium=repo&utm_campaign=ping123-what-is-my-ip-proxy-checker&utm_content=dns_section
+
+### Run a WebRTC Leak Test
+
+WebRTC behavior can expose unexpected browser-side network information. Re-test after browser updates, VPN updates, extension changes, or profile changes.
+
+WebRTC leak test:
+
+https://ping123.app/en/webrtc-leak-test/?utm_source=github&utm_medium=repo&utm_campaign=ping123-what-is-my-ip-proxy-checker&utm_content=webrtc_section
+
+### Review IP Risk Before Sensitive Workflows
+
+Trust and safety teams, QA engineers, developers, and privacy-conscious users can review IP risk context before testing location-sensitive flows, authentication flows, access controls, or network changes.
+
+IP risk score:
+
+https://ping123.app/ip-risk/?utm_source=github&utm_medium=repo&utm_campaign=ping123-what-is-my-ip-proxy-checker&utm_content=risk_section
+
+## Docs
+
+This repository includes short, shareable references:
+
+- [Docs index](docs/README.md)
+- [Proxy and VPN leak test checklist](docs/proxy-vpn-leak-test-checklist.md)
+- [IP risk signals explained](docs/ip-risk-signals.md)
+- [Browser privacy signals](docs/browser-privacy-signals.md)
+- [FAQ](docs/faq.md)
 
 ## FAQ
 
 ### What is my IP address?
 
-Your public IP address is the address websites see when your browser connects to them. It can identify your visible network route, approximate location, ISP, ASN, or organization.
+Your public IP address is the address websites see when your browser connects to them. It can reveal your visible network route, approximate location, ASN, ISP, organization, or network type.
 
-### How do I check whether my proxy is working?
+### How do I check if my proxy is working?
 
-Connect to the proxy, open Ping123, and compare the visible IP, location, ASN, proxy signals, DNS behavior, and WebRTC behavior with what you expected.
+Open Ping123 while connected to the proxy. Check whether the visible IP, location, ASN, DNS behavior, WebRTC behavior, and proxy indicators match what you expected.
 
 ### Can a VPN leak my real IP address?
 
-Yes. A VPN setup can still reveal inconsistent DNS, WebRTC, browser, time zone, or routing signals. Ping123 helps you manually check those signals.
+Yes. VPN setups can still expose mismatched DNS, WebRTC, browser, time zone, or routing signals. Ping123 helps you manually inspect those signals.
 
-### What is a DNS leak?
+### What is a DNS leak test?
 
-A DNS leak happens when DNS requests are routed outside the expected VPN or proxy tunnel. This can expose resolver or network information that does not match your visible IP.
+A DNS leak test checks whether DNS requests are routed through the expected resolver path. Unexpected DNS behavior can reveal network information that does not match the visible public IP.
 
-### What is a WebRTC leak?
+### What is a WebRTC leak test?
 
-A WebRTC leak happens when browser WebRTC behavior exposes unexpected network-related information. Testing WebRTC is especially useful after changing browsers, VPN tools, proxy settings, or extensions.
+A WebRTC leak test checks whether browser WebRTC behavior exposes unexpected network information. It is especially useful after browser, extension, VPN, proxy, or OS updates.
 
 ### What is an IP risk score?
 
-An IP risk score is a summary of reputation and network indicators, such as proxy or VPN classification, datacenter signals, abuse history, spam patterns, or suspicious infrastructure.
+An IP risk score summarizes reputation and network indicators such as proxy or VPN classification, datacenter signals, hosting ranges, abuse patterns, or suspicious infrastructure context.
 
-## Related Resources
+## Related Ping123 GitHub Repositories
 
-- IP risk score: https://ping123.app/ip-risk/?utm_source=github&utm_medium=repo&utm_campaign=ip_risk_score
-- Proxy checker: https://ping123.app/proxy-check/?utm_source=github&utm_medium=repo&utm_campaign=proxy_checker
-- DNS leak test: https://ping123.app/dns-leak-test/?utm_source=github&utm_medium=repo&utm_campaign=dns_leak_test
-- WebRTC leak test: https://ping123.app/webrtc-leak-test/?utm_source=github&utm_medium=repo&utm_campaign=webrtc_leak_test
-- VPN leak test: https://ping123.app/vpn-leak-test-checklist/?utm_source=github&utm_medium=repo&utm_campaign=vpn_leak_test
+This repository is the main Ping123 GitHub hub. The first-wave keyword matrix is:
 
-## Start Here
-
-Check your IP address, proxy status, DNS leak behavior, WebRTC leak exposure, VPN consistency, browser privacy signals, and IP risk context:
-
-https://ping123.app/?utm_source=github&utm_medium=repo&utm_campaign=what_is_my_ip_proxy_checker
+- `ping123-what-is-my-ip-proxy-checker`
+- `ping123-ip-risk-score-checker`
+- `ping123-ip-quality-score-checker`
+- `ping123-ip-fraud-score-checker`
+- `ping123-ip-reputation-checker`
+- `ping123-dns-webrtc-vpn-leak-test`
 
 ## License
 

@@ -6,7 +6,7 @@ Ping123 is a transparent IP checker and browser privacy diagnostic tool. It help
 
 Try it here:
 
-https://ping123.app/?utm_source=github&utm_medium=docs&utm_campaign=faq
+https://ping123.app/what-is-my-ip/?utm_source=github&utm_medium=docs&utm_campaign=ping123-what-is-my-ip-proxy-checker&utm_content=faq_intro
 
 ## What is my IP?
 
@@ -18,7 +18,7 @@ Open Ping123 and the page will show the visible public IP address and related ne
 
 What is my IP:
 
-https://ping123.app/?utm_source=github&utm_medium=docs&utm_campaign=faq
+https://ping123.app/what-is-my-ip/?utm_source=github&utm_medium=docs&utm_campaign=ping123-what-is-my-ip-proxy-checker&utm_content=faq_what_is_my_ip
 
 ## What is a proxy checker?
 
@@ -26,7 +26,7 @@ A proxy checker helps review whether your current network route appears to be a 
 
 Proxy checker:
 
-https://ping123.app/proxy-check/?utm_source=github&utm_medium=docs&utm_campaign=faq
+https://ping123.app/proxy-check/?utm_source=github&utm_medium=docs&utm_campaign=ping123-what-is-my-ip-proxy-checker&utm_content=faq_proxy_checker
 
 ## How do I check if my proxy is working?
 
@@ -38,7 +38,7 @@ A VPN leak test checks whether your browser and network setup exposes signals th
 
 VPN leak test:
 
-https://ping123.app/vpn-leak-test-checklist/?utm_source=github&utm_medium=docs&utm_campaign=faq
+https://ping123.app/vpn-leak-test-checklist/?utm_source=github&utm_medium=docs&utm_campaign=ping123-what-is-my-ip-proxy-checker&utm_content=faq_vpn_leak_test
 
 ## What is a DNS leak?
 
@@ -46,7 +46,7 @@ A DNS leak happens when DNS requests are sent outside the expected proxy or VPN 
 
 DNS leak test:
 
-https://ping123.app/dns-leak-test/?utm_source=github&utm_medium=docs&utm_campaign=faq
+https://ping123.app/en/dns-leak-test/?utm_source=github&utm_medium=docs&utm_campaign=ping123-what-is-my-ip-proxy-checker&utm_content=faq_dns_leak_test
 
 ## What is a WebRTC leak?
 
@@ -54,7 +54,7 @@ A WebRTC leak happens when browser WebRTC behavior exposes unexpected network-re
 
 WebRTC leak test:
 
-https://ping123.app/webrtc-leak-test/?utm_source=github&utm_medium=docs&utm_campaign=faq
+https://ping123.app/en/webrtc-leak-test/?utm_source=github&utm_medium=docs&utm_campaign=ping123-what-is-my-ip-proxy-checker&utm_content=faq_webrtc_leak_test
 
 ## What is an IP risk score?
 
@@ -62,7 +62,7 @@ An IP risk score summarizes reputation and network indicators. It may include pr
 
 IP risk score:
 
-https://ping123.app/ip-risk/?utm_source=github&utm_medium=docs&utm_campaign=faq
+https://ping123.app/ip-risk/?utm_source=github&utm_medium=docs&utm_campaign=ping123-what-is-my-ip-proxy-checker&utm_content=faq_ip_risk
 
 ## Is a VPN always safer?
 
@@ -78,4 +78,4 @@ Start with the main IP checker, then run the proxy checker, DNS leak test, WebRT
 
 Start here:
 
-https://ping123.app/?utm_source=github&utm_medium=docs&utm_campaign=faq
+https://ping123.app/what-is-my-ip/?utm_source=github&utm_medium=docs&utm_campaign=ping123-what-is-my-ip-proxy-checker&utm_content=faq_start_here

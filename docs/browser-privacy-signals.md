@@ -4,7 +4,7 @@ Your public IP address is only one part of your online profile. Websites may als
 
 Ping123 helps you inspect these signals together:
 
-https://ping123.app/?utm_source=github&utm_medium=docs&utm_campaign=browser_privacy_signals
+https://ping123.app/what-is-my-ip/?utm_source=github&utm_medium=docs&utm_campaign=ping123-what-is-my-ip-proxy-checker&utm_content=browser_privacy_intro
 
 ## Public IP vs Browser Signals
 
@@ -62,7 +62,7 @@ Browser updates can change privacy behavior. Re-test after:
 
 ## Related Ping123 Tools
 
-- What is my IP: https://ping123.app/?utm_source=github&utm_medium=docs&utm_campaign=browser_privacy_signals
-- DNS leak test: https://ping123.app/dns-leak-test/?utm_source=github&utm_medium=docs&utm_campaign=browser_privacy_signals
-- WebRTC leak test: https://ping123.app/webrtc-leak-test/?utm_source=github&utm_medium=docs&utm_campaign=browser_privacy_signals
-- VPN leak test: https://ping123.app/vpn-leak-test-checklist/?utm_source=github&utm_medium=docs&utm_campaign=browser_privacy_signals
+- What is my IP: https://ping123.app/what-is-my-ip/?utm_source=github&utm_medium=docs&utm_campaign=ping123-what-is-my-ip-proxy-checker&utm_content=browser_privacy_related
+- DNS leak test: https://ping123.app/en/dns-leak-test/?utm_source=github&utm_medium=docs&utm_campaign=ping123-what-is-my-ip-proxy-checker&utm_content=browser_privacy_related
+- WebRTC leak test: https://ping123.app/en/webrtc-leak-test/?utm_source=github&utm_medium=docs&utm_campaign=ping123-what-is-my-ip-proxy-checker&utm_content=browser_privacy_related
+- VPN leak test: https://ping123.app/vpn-leak-test-checklist/?utm_source=github&utm_medium=docs&utm_campaign=ping123-what-is-my-ip-proxy-checker&utm_content=browser_privacy_related
